@@ -542,7 +542,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "sans-serif";
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -653,7 +653,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", "sans-serif";
     font-weight: 400;
     color: black;
 }
@@ -691,7 +691,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", "sans-serif";
 }
 
 .cta-hero {
@@ -880,20 +880,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
